@@ -3,9 +3,8 @@
  * Goal: Activate menu item which have id match with last url segment. 
  */
 
-// Initialize the current url and path
+// Initialize the current url
 window.onload=function() {
-	var curUri = window.location.href;
 	var pathUri = window.location.pathname;
 
 	console.log("path uri: "+pathUri); // Checking got the pathname
