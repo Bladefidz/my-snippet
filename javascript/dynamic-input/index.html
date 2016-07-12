@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper" ng-app="penjualan">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">DYNAMIC INPUT DEMO</a>
+        </div>
+    </nav>
+    <div class="container" style="margin: 0px">
+        <div class="row" style="padding-top:10px">
+        	<div class="col-lg-6">
+	            <div class="panel panel-default">
+	                <!-- /.panel-heading -->
+	                <div class="panel-body">
+	                    <form>
+	                    	<div class="dynamic-input-group">
+	                    		<div class="form-group">
+		                    		<label class="label-control">Dynamic Input</label>
+		                    		<button type="button" id="addBtn" class="btn btn-md btn-primary pull-right">
+	                                	<i class="fa fa-plus-circle"></i>
+	                            	</button>
+                            	</div>
+
+	                    		<div class="form-group" id="dynamic-input">
+								    <input type="text" class="form-control" placeholder="This is dynamic input">
+								</div>
+	                    	</div>
+	                    </form>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="dynamic-input.js"></script>
